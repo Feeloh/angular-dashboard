@@ -1,0 +1,25 @@
+<div class="topnav">
+  <div class="topnav-left">
+    <img
+      width="130"
+      alt="Angular Logo"
+      src="../../../assets/img/4cloud-logo.png"
+      class="logo-image"
+    />
+    <select name="home" id="#" (change)="onChange($any($event.target).value)">
+      <option selected="selected" value="home">Home</option>
+      <option value="tickets">Tickets</option>
+      <option value="document">Document Management</option>
+      <option value="knowledge">Knowledge Base</option>
+      <option value="customers">Customers</option>
+      <option value="users">Users</option>
+      <option value="reports">Reports</option>
+    </select>
+  </div>
+  <div class="topnav-right">
+    <img class="topnav-right-image" src="../../../assets/img/person.png" alt="Person" height="27" />
+    <p>{{ fullName }}</p>
+    <img class="topnav-right-image" src="../../../assets/img/straightLine.png" alt="line" height="40" />
+    <a class="btn" (click)="signOut()">Sign Out</a>
+  </div>
+</div>

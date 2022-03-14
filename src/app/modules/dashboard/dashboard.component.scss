@@ -1,0 +1,35 @@
+.row{display:flex;}
+.row div{flex:1}
+.container {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.cardStyling:hover {
+    cursor: pointer;
+    background-color: #e1781e;
+}
+.cardStyling {
+    background-color: #010144;
+    color: white;
+    height: 200px;
+    width: 200px;
+    margin-left: 20px;
+    padding-left: 10%;
+    padding-top: 2%;
+}
+.containerStyling {
+    margin-top: 10%;
+}
+.cardTextStyling {
+    font-size: smaller;
+}
+.cardImageStyling {
+    object-fit: contain;
+    height: 30%;
+    width: 30%;
+}
+.spacing {
+    margin-top: 15px;
+}

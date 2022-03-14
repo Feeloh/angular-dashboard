@@ -1,0 +1,40 @@
+.topnav {
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  background-color: #010144;
+  color: white;
+  font-weight: 600;
+}
+.topnav a {
+  float: left;
+  border: 1px solid white;
+  margin-top: 25px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.topnav p {
+  float: left;
+  padding-top: 12px;
+  padding-left: 5px;
+}
+.topnav img {
+  margin: 0px 5px ;
+  padding-right: 10px;
+}
+.logo-image {
+  padding-top: 10px;
+}
+.topnav-right-image {
+  float: left;
+  padding-top: 20px;
+}
+.topnav-right {
+  float: right;
+}
+.topnav-left {
+  float: left;
+  margin-bottom: 15px;
+  margin-left: 10px;
+}

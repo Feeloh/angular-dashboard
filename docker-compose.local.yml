@@ -1,0 +1,13 @@
+version: "3.8"
+
+services:
+  app:
+    container_name: 4cloud-frontned
+    image: 4cloud-frontned
+    build:
+      context: .
+    volumes:
+      - ./:/app
+      - /app/node_modules
+    ports:
+      - 4200:4200
